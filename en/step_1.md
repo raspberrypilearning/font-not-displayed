@@ -1,59 +1,33 @@
-## Introduction
+When you want to use a new google font, you need to make sure you have:
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
++ Added the `<link>` from google fonts to the `<head>` section of your web page
++ Updated the font variables in `default.css` or the style sheet that you are using for your colour and font palette. 
 
-### What you will make
+This example adds the `Bangers` font and uses if for headers and titles, but not for the body:
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: HTML
+filename: index.html
+line_numbers: false
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+<!-- Import fonts from Google -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
---- /collapse ---
+--- /code ---
 
---- collapse ---
+--- code ---
 ---
-title: Additional information for educators
+language: CSS
+filename: default.css
+line_numbers: false
 ---
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+--body-font: 1.1rem Verdana, sans-serif;
+--header-font: lighter 3rem 'Bangers', cursive;
+--title-font: lighter 2rem 'Bangers', cursive;
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+--- /code ---
