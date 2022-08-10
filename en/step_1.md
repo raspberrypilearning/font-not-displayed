@@ -1,9 +1,9 @@
-When you want to use a new google font, you need to make sure you have:
+When you want to use a new Google Font, you need to make sure you have:
 
-+ Added the `<link>` from google fonts to the `<head>` section of your web page
-+ Updated the font variables in `default.css` or the style sheet that you are using for your colour and font palette. 
++ Added the `<link>` from Google Fonts to the `<head>` section of your webpage
++ Updated the font variables in `default.css` or the style sheet that you are using for your colour and font palette 
 
-This example adds the `Bangers` font and uses if for headers and titles, but not for the body:
+This example adds the `Bangers` font and uses it for headers and titles, but not for the body:
 
 --- code ---
 ---
