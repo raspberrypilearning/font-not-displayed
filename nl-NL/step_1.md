@@ -1,9 +1,9 @@
-When you want to use a new Google Font, you need to make sure you have:
+Als je een nieuw Google-lettertype wilt gebruiken, moet je ervoor zorgen dat je het volgende gedaan hebt:
 
-- Added the `<link>` from Google Fonts to the `<head>` section of your webpage
-- Updated the font variables in `default.css` or the style sheet that you are using for your colour and font palette
+- De `<link>` van Google Fonts toegevoegd aan het `<head>` gedeelte van jouw webpagina
+- De lettertypevariabelen bijgewerkt in `default.css` of de style sheet die je gebruikt voor jouw kleuren- en lettertypepalet
 
-This example adds the 'Bangers' font and uses it for headers and titles, but not for the body:
+In dit voorbeeld wordt het lettertype 'Bangers' toegevoegd en gebruikt voor kopteksten en titels, maar niet voor de hoofdtekst:
 
 ## --- code ---
 
