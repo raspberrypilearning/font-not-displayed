@@ -1,9 +1,9 @@
-When you want to use a new Google Font, you need to make sure you have:
+Si tu souhaites utiliser une nouvelle police Google, tu dois avoir effectué ces actions :
 
-- Added the `<link>` from Google Fonts to the `<head>` section of your webpage
-- Updated the font variables in `default.css` or the style sheet that you are using for your colour and font palette
+- Ajouter le contenu '<link>' de Google Fonts à la section '<head>' de ta page web
+- Mettre à jour les variables de police dans 'default.css' ou dans la feuille de style que tu utilises pour ta palette de couleurs et de polices
 
-This example adds the 'Bangers' font and uses it for headers and titles, but not for the body:
+Cet exemple ajoute la police 'Bangers' et l'utilise pour les en-têtes et les titres, mais pas pour le corps :
 
 ## --- code ---
 
