@@ -1,9 +1,9 @@
-When you want to use a new Google Font, you need to make sure you have:
+当你想要使用新的 Google 字体时，你需要确保你拥有：
 
-- Added the `<link>` from Google Fonts to the `<head>` section of your webpage
-- Updated the font variables in `default.css` or the style sheet that you are using for your colour and font palette
+- 将 Google 字体中的 `<link>` 添加到你网页的 `<head>` 部分
+- 更新 `default.css` 中的字体变量或用于颜色和字体调色板的样式表
 
-This example adds the 'Bangers' font and uses it for headers and titles, but not for the body:
+此示例添加了“Bangers”字体并将其用于页眉和标题，但不用于正文：
 
 ## --- code ---
 
